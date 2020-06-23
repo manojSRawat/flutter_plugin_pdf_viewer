@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d25dbd07-759c-41ff-b4dd-eb33ccbe59a6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/android/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/example/android/gradle.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/example/pubspec.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/document.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/document.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/page.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/viewer.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/viewer.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -237,7 +227,16 @@
       <updated>1551973615649</updated>
       <workItem from="1592596445717" duration="1578000" />
       <workItem from="1592612806749" duration="1332000" />
+      <workItem from="1592948149349" duration="253000" />
     </task>
+    <task id="LOCAL-00001" summary="fix: dependencies #71&#10;feat: customizable FloatingActionButton">
+      <created>1592948330467</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1592948330467</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView">
@@ -249,11 +248,15 @@
       <is-autoscroll-to-source value="true" />
     </todo-panel>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fix: dependencies #71&#10;feat: customizable FloatingActionButton" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: dependencies #71&#10;feat: customizable FloatingActionButton" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="6" y="22" key="CommitChangelistDialog2" timestamp="1592948278881">
+    <state x="6" y="22" key="CommitChangelistDialog2" timestamp="1592948330308">
       <screen x="0" y="22" width="1920" height="1013" />
     </state>
-    <state x="6" y="22" key="CommitChangelistDialog2/0.22.1920.1013@0.22.1920.1013" timestamp="1592948278881" />
+    <state x="6" y="22" key="CommitChangelistDialog2/0.22.1920.1013@0.22.1920.1013" timestamp="1592948330308" />
     <state width="1856" height="249" key="GridCell.Tab.0.bottom" timestamp="1592616351245">
       <screen x="0" y="22" width="1920" height="1013" />
     </state>
@@ -270,6 +273,10 @@
       <screen x="0" y="22" width="1920" height="1013" />
     </state>
     <state width="1856" height="249" key="GridCell.Tab.0.right/0.22.1920.1013@0.22.1920.1013" timestamp="1592616351244" />
+    <state x="359" y="137" key="Vcs.Push.Dialog.v2" timestamp="1592948363239">
+      <screen x="0" y="22" width="1920" height="1013" />
+    </state>
+    <state x="359" y="137" key="Vcs.Push.Dialog.v2/0.22.1920.1013@0.22.1920.1013" timestamp="1592948363239" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
