@@ -18,19 +18,18 @@ class _MyAppState extends State<MyApp> {
     loadDocument();
   }
 
-  loadDocument() async {
+  void loadDocument() async {
     document = await PDFDocument.fromAsset('assets/sample.pdf');
 
     setState(() => _isLoading = false);
   }
 
-  changePDF(value) async {
+  void changePDF(int value) async {
     setState(() => _isLoading = true);
     if (value == 1) {
       document = await PDFDocument.fromAsset('assets/sample2.pdf');
     } else if (value == 2) {
-      document = await PDFDocument.fromURL(
-          "http://conorlastowka.com/book/CitationNeededBook-Sample.pdf");
+      document = await PDFDocument.fromURL("http://conorlastowka.com/book/CitationNeededBook-Sample.pdf");
     } else {
       document = await PDFDocument.fromAsset('assets/sample.pdf');
     }
@@ -69,10 +68,7 @@ class _MyAppState extends State<MyApp> {
         appBar: AppBar(
           title: const Text('FlutterPluginPDFViewer'),
         ),
-        body: Center(
-            child: _isLoading
-                ? Center(child: CircularProgressIndicator())
-                : PDFViewer(document: document)),
+        body: Center(child: _isLoading ? Center(child: CircularProgressIndicator()) : PDFViewer(document: document)),
       ),
     );
   }
