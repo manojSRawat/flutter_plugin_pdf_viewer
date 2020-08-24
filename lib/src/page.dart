@@ -1,9 +1,11 @@
 import 'dart:io';
 import 'dart:ui';
 
+import 'package:flutter/material.dart';
 import 'package:flutter/painting.dart';
 import 'package:flutter/widgets.dart';
-import 'package:flutter_advanced_networkimage/zoomable.dart';
+import 'package:photo_view/photo_view.dart';
+
 
 class PDFPage extends StatefulWidget {
   final String imgPath;
@@ -41,14 +43,16 @@ class _PDFPageState extends State<PDFPage> {
 
   @override
   Widget build(BuildContext context) {
+    final size = MediaQuery.of(context).size;
     return Container(
         decoration: null,
-        child: ZoomableWidget(
-          zoomSteps: 3,
-          minScale: 1.0,
-          panLimit: 0.8,
+        child: PhotoView(
+          imageProvider: provider,
+          enableRotation: false,
+          minScale: 0.175,
           maxScale: 3.0,
-          child: Image(image: provider),
+          initialScale: 0.19,backgroundDecoration: BoxDecoration(color: Colors.white24)
         ));
   }
 }
+

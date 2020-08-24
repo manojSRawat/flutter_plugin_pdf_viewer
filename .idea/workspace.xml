@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d25dbd07-759c-41ff-b4dd-eb33ccbe59a6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/example/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/page.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -12,6 +17,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="0wvrj4yz" />
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="414" />
@@ -184,16 +192,17 @@
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.force.activate" value="false" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="flutter.settings" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
@@ -202,18 +211,6 @@
       <option name="filePath" value="$PROJECT_DIR$/example/lib/main.dart" />
       <method v="2" />
     </configuration>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -228,6 +225,7 @@
       <workItem from="1592596445717" duration="1578000" />
       <workItem from="1592612806749" duration="1332000" />
       <workItem from="1592948149349" duration="253000" />
+      <workItem from="1597960140733" duration="2748000" />
     </task>
     <task id="LOCAL-00001" summary="fix: dependencies #71&#10;feat: customizable FloatingActionButton">
       <created>1592948330467</created>
@@ -253,6 +251,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="fix: dependencies #71&#10;feat: customizable FloatingActionButton" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="626" y="336" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1597960201379">
+      <screen x="0" y="24" width="1920" height="1011" />
+    </state>
+    <state x="626" y="336" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.24.1920.1011@0.24.1920.1011" timestamp="1597960201379" />
     <state x="6" y="22" key="CommitChangelistDialog2" timestamp="1592948330308">
       <screen x="0" y="22" width="1920" height="1013" />
     </state>
@@ -277,6 +279,10 @@
       <screen x="0" y="22" width="1920" height="1013" />
     </state>
     <state x="359" y="137" key="Vcs.Push.Dialog.v2/0.22.1920.1013@0.22.1920.1013" timestamp="1592948363239" />
+    <state x="562" y="182" width="796" height="694" key="find.popup" timestamp="1597960233176">
+      <screen x="0" y="24" width="1920" height="1011" />
+    </state>
+    <state x="562" y="182" width="796" height="694" key="find.popup/0.24.1920.1011@0.24.1920.1011" timestamp="1597960233176" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
